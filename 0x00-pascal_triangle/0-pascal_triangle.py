@@ -32,12 +32,3 @@ def pascal_triangle(n):
         triangle.append(row)
 
     return triangle
-
-
-# Test the function
-if __name__ == "__main__":
-    n = 5
-    result = pascal_triangle(n)
-    # Print each row of Pascal's Triangle
-    for row in result:
-        print(row)
