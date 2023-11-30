@@ -7,10 +7,12 @@ def pascal_triangle(n):
         n (int): The number of rows for Pascal's Triangle.
 
     Returns:
-        list of lists: A list of lists representing Pascal's Triangle up to the nth row.
+        list of lists: A list of lists representing Pascal's Triangle
+        up to the nth row.
 
     Note:
-        Returns an empty list if n <= 0. Assumes n will always be an integer.
+        Returns an empty list if n <= 0.
+        Assumes n will always be an integer.
     """
     # Check if n is less than or equal to 0
     if n <= 0:
@@ -31,6 +33,7 @@ def pascal_triangle(n):
 
     return triangle
 
+
 # Test the function
 if __name__ == "__main__":
     n = 5
@@ -38,4 +41,3 @@ if __name__ == "__main__":
     # Print each row of Pascal's Triangle
     for row in result:
         print(row)
-
