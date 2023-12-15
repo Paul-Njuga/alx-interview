@@ -2,6 +2,8 @@
 """
 Minimum Operations
 """
+
+
 def minOperations(n):
     """
     In a text file, there's a single character H.
